@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Qui est-ce ?</title>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="texte">
+      <li class="btn"></li>
+      <div style="text-align:center;">
+        <h1><u>Qui est-ce ?</u></h1>
+      </div>
+      <form action="resultat.php" method="post">
+        <p style="float:left">
+          <img id="image" src="personnages.jpg"/>
+          <h2><u>Questions :</u></h2>
+          <div class="button">
+            <p>
+              Q1 - A t'il des lunettes ?<br>
+              <input name="bit1" value="1" type="radio">Oui</input> <input name="bit1" value="0" type="radio">Non</input><br>
+              <br>
+              Q2 - A t'il une moustache ?<br>
+              <input name="bit2" value="1" type="radio">Oui</input> <input name="bit2" value="0" type="radio">Non</input><br>
+              <br>
+              Q3 - A t'il un chapeau ?<br>
+              <input name="bit3" value="1" type="radio">Oui</input> <input name="bit3" value="0" type="radio">Non</input><br>
+              <br>
+              Q4 - A t'il des cheveux ?<br>
+              <input name="bit4" value="1" type="radio">Oui</input> <input name="bit4" value="0" type="radio">Non</input><br>
+              <br>
+              Q5 - A t'il des boucles d'oreille ?<br>
+              <input name="bit5" value="1" type="radio">Oui</input> <input name="bit5" value="0" type="radio">Non</input><br>
+              <br>
+              Q6 - A t'il une barbe ?<br>
+              <input name="bit6" value="1" type="radio">Oui</input> <input name="bit6" value="0" type="radio">Non</input><br>
+              <br>
+              Q7 - A t'il un noeud papillon ?<br>
+              <input name="bit7" value="1" type="radio">Oui</input> <input name="bit7" value="0" type="radio">Non</input><br>
+              <br>
+              <input value="Cliquez pour avoir la réponse" type="submit"></input>
+            </p>   
+          </div>
+        </p>
+        <div style="clear:both"></div>
+      </form>
+    </div>
+  </body>
+</html>

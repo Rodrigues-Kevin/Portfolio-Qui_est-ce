@@ -1,0 +1,73 @@
+h1 
+{
+	color:#000000;
+	font-family: Calibri;
+}
+
+p
+{
+	color:#000000;
+	font-family: Calibiri;
+	font-size:26px;
+	text-align:center;
+	
+}
+
+h2
+{
+	color:#B22222;
+	font-family:Calibri;
+}
+
+body
+{
+	background: url(https://us.123rf.com/450wm/spicytruffel/spicytruffel2103/spicytruffel210300034/165282864-mod%C3%A8le-de-point-d-interrogation-doodle-maquette-de-texture-transparente-avec-des-symboles-d.jpg?ver=6) ;
+	background-size: 100%
+	
+}
+
+#texte
+{
+	width:1600px;
+	background-color:#FFFFFF   ;
+	margin:0 auto;
+	text-align:center;
+	align-content: center;
+}
+
+.flotte
+{
+	float:right;
+}
+
+.flotteg
+{
+	float:left;
+}
+
+nav.menu-nav ul li.btn
+{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn a
+{
+	color:white ;
+	text-decoration: none;
+	background-color: #A09F94 ;
+	font-family: sans-serif;
+	padding: 5px
+
+}
+
+nav.menu-nav ul li.btn:hover a
+{
+	color:black ;
+	background-color: white;
+}
+
+#image
+{
+	height: 800px;
+}
